@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number-guess-game</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="image">
+    <div class="container pb-3">
+      <h1 class="title">Up & Down 게임</h1>
+
+      <div id="chance-area">남은 기회 : 5번</div>
+      <input
+        type="number"
+        id="user-input"
+        placeholder="1부터 100까지 숫자를 입력"
+        class="form"
+      />
+      <div id="result-area">5번 안에 맞춰주세요</div>
+      <button id="play-button">Go!</button>
+      <button id="reset-button">리셋!</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

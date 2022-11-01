@@ -7,7 +7,7 @@ body {
 }
 .image {
   background-repeat: repeat;
-  background-image: url(/image.png);
+  background-image: url(image/Updown.png);
   background-size: auto;
 }
 .title {
